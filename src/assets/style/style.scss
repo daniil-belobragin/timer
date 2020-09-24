@@ -1,8 +1,59 @@
 body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  background: #353638;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.button {
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.button-image {
+  height: 100%;
+}
+
+.timer {
+  color: #9E9E9E;
+  width: 225px;
+  height: 120px;
+  background: #696969;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 23px 25px;
+  justify-self: center;
+}
+
+@import "./animation";
